@@ -12,7 +12,7 @@ const AddTask = ({ handleTaskAddition }) => {
     }
 
     const checkEmptyInput = () => {
-        if (inputData && inputData != "" && inputData.trim().length > 0)
+        if (inputData && inputData !== "" && inputData.trim().length > 0)
             return true;
         return false;
     }
